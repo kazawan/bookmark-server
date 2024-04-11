@@ -7,8 +7,7 @@ services:
     container_name: server
     # 创建镜像
     build:
-      # 目录
-      context: server
+    
       # dockerfile 具体名称
       dockerfile: Dockerfile
     # 暴露端口
